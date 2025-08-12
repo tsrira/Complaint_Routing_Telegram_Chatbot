@@ -40,7 +40,6 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 
 ## 📊 Workflow Diagram
 
-```mermaid
 flowchart LR
     %% Complaint Handling Path
     A[🛒 Telegram Bot] --> B[🤖 n8n Workflow]
