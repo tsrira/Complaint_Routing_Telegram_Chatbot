@@ -47,6 +47,7 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 **Diagram 2 — Complaint Routing Workflow**
 
 🛒 Telegram Bot → 🤖 n8n Complaint Routing Workflow → 🧠 OpenAI Embeddings + 🔍 Pinecone Vector Search → 📜 FAQ Match → 💬 Customer Reply
+
 ---
 
 ## 📂 Project Structure
