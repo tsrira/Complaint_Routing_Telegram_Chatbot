@@ -13,7 +13,7 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 
 ## 🚀 Features
 
-- 📱 **Telegram Bot Integration** — Chat with customers via [@DMartSupport_bot](https://t.me/DMartSupport_bot)  
+- 📱 **Telegram Bot Integration** — Chat with customers via [DMartSupport_bot](https://t.me/DMartSupport_bot)  
 - 🧠 **AI-Powered Matching** — Finds the best FAQ using semantic search  
 - 🔍 **Pinecone Vector Search** — Fast, scalable similarity search  
 - ⚡ **n8n Automation** — Fully automated routing and FAQ answering  
