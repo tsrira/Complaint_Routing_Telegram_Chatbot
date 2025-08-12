@@ -35,7 +35,7 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 
 ### 5️⃣ Activate Bot  
 - Start both workflows in n8n  
-- Chat via [@DMartSupport_bot](https://web.telegram.org/k/#@DMartSupport_bot)
+- Chat via [DMartSupport_bot](https://web.telegram.org/k/#@DMartSupport_bot)
 ---
 
 ## 📊 Workflow Diagram
