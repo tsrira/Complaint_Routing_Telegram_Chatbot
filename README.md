@@ -30,6 +30,7 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 **Bot:** "Please visit the store with your purchase bill and the expired item. DMart has a return/replacement policy for expired goods, and you will be provided with a fresh product or a refund."  
 
 **User:** "Can I cancel my DMart Ready order after payment?"
+
 **Bot:** "Yes, you can cancel your DMart Ready order after payment, but only before order processing starts. You can do this via the app or website. Refunds usually take 5–7 working days."
 
 ### 5️⃣ Activate Bot  
