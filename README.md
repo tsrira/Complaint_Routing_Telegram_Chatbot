@@ -40,20 +40,13 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 
 ## 📊 Workflow Diagram
 
-flowchart LR
-    %% Complaint Handling Path
-    A[🛒 Telegram Bot] --> B[🤖 n8n Workflow]
-    B --> C[🧠 OpenAI Embeddings]
-    B --> D[🔍 Pinecone Vector Search]
-    C --> E[FAQ Match & Response]
-    D --> E
-    E --> F[💬 Customer Reply]
+**Diagram 1 — Vector Update Workflow**
 
-    %% Vector Update Path
-    G[📂 Google Drive Dataset] --> H[🤖 n8n Update Workflow]
-    H --> C
-    H --> I[🔍 Pinecone Index Update]
+📂 Google Drive Dataset → 🤖 n8n Vector Update Workflow → 🧠 OpenAI Embeddings → 🔍 Pinecone Index Update
 
+**Diagram 2 — Complaint Routing Workflow**
+
+🛒 Telegram Bot → 🤖 n8n Complaint Routing Workflow → 🧠 OpenAI Embeddings + 🔍 Pinecone Vector Search → 📜 FAQ Match → 💬 Customer Reply
 ---
 
 ## 📂 Project Structure
