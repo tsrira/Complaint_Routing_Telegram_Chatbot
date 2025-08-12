@@ -38,6 +38,24 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 - Chat via [@DMartSupport_bot](https://t.me/DMartSupport_bot)  
 ---
 
+## 📊 Workflow Diagram
+
+```mermaid
+flowchart LR
+    %% Complaint Handling Path
+    A[🛒 Telegram Bot] --> B[🤖 n8n Workflow]
+    B --> C[🧠 OpenAI Embeddings]
+    B --> D[🔍 Pinecone Vector Search]
+    C --> E[FAQ Match & Response]
+    D --> E
+    E --> F[💬 Customer Reply]
+
+    %% Vector Update Path
+    G[📂 Google Drive Dataset] --> H[🤖 n8n Update Workflow]
+    H --> C
+    H --> I[🔍 Pinecone Index Update]
+
+
 ## 📂 Project Structure
 
 ```
