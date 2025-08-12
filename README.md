@@ -55,6 +55,7 @@ flowchart LR
     H --> C
     H --> I[🔍 Pinecone Index Update]
 
+---
 
 ## 📂 Project Structure
 
