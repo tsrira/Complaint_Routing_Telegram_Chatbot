@@ -33,7 +33,7 @@ Automates complaint handling, matches queries to FAQs, and responds instantly wi
 
 **Bot:** "Yes, you can cancel your DMart Ready order after payment, but only before order processing starts. You can do this via the app or website. Refunds usually take 5–7 working days."
 
-Got the Informations from [DMart-Bangalore-Reviews] (https://www.mouthshut.com/product-reviews/d-mart-bangalore-reviews-925662558)
+Got the Informations from [DMart-Bangalore-Reviews](https://www.mouthshut.com/product-reviews/d-mart-bangalore-reviews-925662558)
 
 And a quick demo with Telegram is here --> [DMart Complain Routing and FAQ - Demo](https://youtu.be/x25LfEAKcjM)
 
